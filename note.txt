@@ -1,0 +1,41 @@
+-js can be used in both frontend(behavior) and backend(to do logical operations)
+-js is compiled using node
+-Single thread programming language - bcoz line by line execution
+-dynamically typed language - datatype changes  - not a good property
+extension -> .js
+display content - console.log
+output - ctrl+j
+cd-change directory
+DATA TYPES : 
+ 1. String- single quotes or double quotes
+ 2. Boolean - true or false 
+ 3.number
+method to check datatype - typeof
+Concatenation - to join/add same or different datatype
+     string+string -> string
+     string+number -> string
+     number+number -> number
+variables - to store data 
+to create variables - identifiers -set of rules to creat variables
+  1) starts with letters or $ or _            -  prefer letters
+  2) subsequent characters can be letters digits , underscore etc
+  3) if there is more than one word ,second word can be started with capital letter or use underscore b/w the words
+  4) no space b/w the words
+to create variable - variableName = value
+     keyword variableName=value
+Keyword :
+   set of reserved word which gives a special meaning to variables 
+   it cannot be used as variable name ,function name 
+   js keywords - 
+     1)const - its value doesnt changes - cant reassign to const variables-hoisting not possible
+     2)var - value changes throughout-can reassign-hoisting possible - functional level or global
+     3)let - reassigning is possible - accessible inside a block - hoisting is not possible 
+ 
+hoisting - using of variables before it is declared/create
+
+
+template literals
+-----------------
+- way of displaying content
+`content` ${variable} -------   `(backtick is used)
+
